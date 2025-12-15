@@ -581,6 +581,31 @@ footer {
   font-size: 1.25rem;
 }
 
+/* ========== TECH STACK CLOUD ========== */
+.tech-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.tech-tag {
+  padding: 0.5rem 1.25rem;
+  background: var(--accent-soft);
+  color: var(--accent);
+  border-radius: 30px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.tech-tag:hover {
+  background: var(--accent);
+  color: white;
+  transform: scale(1.05);
+}
 
 /* ========== PROCESS TIMELINE ========== */
 .process-timeline {

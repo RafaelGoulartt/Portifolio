@@ -62,7 +62,6 @@
           <li><a href="#">PHP Development</a></li>
           <li><a href="#">ASP Classic</a></li>
           <li><a href="#">SQL Server</a></li>
-          <li><a href="#">Web APIs</a></li>
         </ul>
       </div>
     

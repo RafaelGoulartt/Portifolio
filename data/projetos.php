@@ -18,22 +18,4 @@ $projetos = [
     'stack' => 'PHP · SQL Server · Bootstrap',
     'imagem' => 'assets/img/project-1.png'
   ],
-
-  'admin' => [
-    'slug' => 'admin',
-    'titulo' => [
-      'pt' => 'Sistema Administrativo',
-      'en' => 'Admin Dashboard'
-    ],
-    'descricao_curta' => [
-      'pt' => 'Gestão de dados e relatórios',
-      'en' => 'Data and reports management'
-    ],
-    'descricao_longa' => [
-      'pt' => 'Sistema administrativo com controle de usuários, relatórios e permissões.',
-      'en' => 'Administrative system with users, reports and permissions.'
-    ],
-    'stack' => 'ASP Clássico · SQL Server',
-    'imagem' => 'assets/img/project-2.png'
-  ]
 ];
