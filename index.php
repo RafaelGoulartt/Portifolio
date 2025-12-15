@@ -167,6 +167,139 @@ include 'data/projetos.php';
 </section>
 
 
+<!-- METRICS SECTION -->
+<section class="section-padding">
+  <div class="container">
+    <div class="section-header text-center">
+      <h2 class="section-title" data-i18n="metrics.title">Impacto & Resultados</h2>
+      <p class="section-subtitle" data-i18n="metrics.subtitle">
+        Números que refletem a qualidade e eficiência do trabalho entregue
+      </p>
+    </div>
+    
+    <div class="metrics-grid">
+      <div class="metric-card">
+        <div class="metric-number" data-count="50">50+</div>
+        <div class="metric-label" data-i18n="metrics.projects">Projetos Entregues</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-number" data-count="30">30+</div>
+        <div class="metric-label" data-i18n="metrics.clients">Clientes Satisfeitos</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-number" data-count="99">99%</div>
+        <div class="metric-label" data-i18n="metrics.satisfaction">Satisfação do Cliente</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-number" data-count="40">40k+</div>
+        <div class="metric-label" data-i18n="metrics.lines">Linhas de Código</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TECH STACK CLOUD -->
+<section class="section-padding bg-dark-alt">
+  <div class="container">
+    <div class="section-header text-center">
+      <h2 class="section-title" data-i18n="techstack.title">Stack Tecnológico</h2>
+      <p class="section-subtitle" data-i18n="techstack.subtitle">
+        Tecnologias e ferramentas que utilizo no dia a dia
+      </p>
+    </div>
+    
+    <div class="tech-cloud">
+      <span class="tech-tag">PHP 8</span>
+      <span class="tech-tag">Laravel</span>
+      <span class="tech-tag">ASP Classic</span>
+      <span class="tech-tag">SQL Server</span>
+      <span class="tech-tag">MySQL</span>
+      <span class="tech-tag">JavaScript</span>
+      <span class="tech-tag">TypeScript</span>
+      <span class="tech-tag">Bootstrap 5</span>
+      <span class="tech-tag">jQuery</span>
+      <span class="tech-tag">Git</span>
+      <span class="tech-tag">Docker</span>
+      <span class="tech-tag">AWS</span>
+      <span class="tech-tag">REST API</span>
+      <span class="tech-tag">Composer</span>
+      <span class="tech-tag">npm</span>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS TIMELINE -->
+<section class="section-padding">
+  <div class="container">
+    <div class="section-header text-center">
+      <h2 class="section-title" data-i18n="process.title">Metodologia de Trabalho</h2>
+      <p class="section-subtitle" data-i18n="process.subtitle">
+        Como trabalho para garantir a qualidade e eficiência dos projetos
+      </p>
+    </div>
+    
+    <div class="process-timeline">
+      <div class="process-step">
+        <div class="step-number">1</div>
+        <div class="step-content">
+          <h3 class="step-title" data-i18n="process.step1.title">Análise & Planejamento</h3>
+          <p class="step-description" data-i18n="process.step1.desc">
+            Entendimento completo dos requisitos, análise técnica e definição
+            da arquitetura ideal para o projeto.
+          </p>
+        </div>
+      </div>
+      
+      <div class="process-step">
+        <div class="step-number">2</div>
+        <div class="step-content">
+          <h3 class="step-title" data-i18n="process.step2.title">Desenvolvimento</h3>
+          <p class="step-description" data-i18n="process.step2.desc">
+            Implementação seguindo boas práticas, clean code e com foco em
+            performance e manutenibilidade.
+          </p>
+        </div>
+      </div>
+      
+      <div class="process-step">
+        <div class="step-number">3</div>
+        <div class="step-content">
+          <h3 class="step-title" data-i18n="process.step3.title">Testes & Qualidade</h3>
+          <p class="step-description" data-i18n="process.step3.desc">
+            Testes rigorosos, revisão de código e garantia de qualidade antes
+            de cada entrega.
+          </p>
+        </div>
+      </div>
+      
+      <div class="process-step">
+        <div class="step-number">4</div>
+        <div class="step-content">
+          <h3 class="step-title" data-i18n="process.step4.title">Entrega & Suporte</h3>
+          <p class="step-description" data-i18n="process.step4.desc">
+            Implantação controlada, documentação completa e suporte pós-entrega.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA SECTION -->
+<section class="container">
+  <div class="cta-section">
+    <h2 class="cta-title" data-i18n="cta.title">Pronto para Iniciar seu Projeto?</h2>
+    <p class="cta-subtitle" data-i18n="cta.subtitle">
+      Vamos transformar suas ideias em soluções digitais eficientes e escaláveis.
+    </p>
+    <div class="cta-buttons">
+      <a href="#contato" class="btn-white" data-i18n="cta.button1">
+        Solicitar Orçamento
+      </a>
+    </div>
+  </div>
+</section>
+
 <!-- PROJETOS -->
 <section id="projetos" class="section-padding bg-dark-alt">
   <div class="container">

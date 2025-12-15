@@ -27,7 +27,7 @@
 
 <nav class="navbar navbar-expand-lg fixed-top navbar-dark custom-navbar">
   <div class="container">
-    <a class="navbar-brand fw-bold" href="/">Rafael<span class="text-accent">.</span></a>
+    <a class="navbar-brand fw-bold" href="/">RAFAEL GOULART</span></a>
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
       <span class="navbar-toggler-icon"></span>

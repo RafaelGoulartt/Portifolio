@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const savedTheme = localStorage.getItem('theme');
   if (savedTheme) {
     html.setAttribute('data-theme', savedTheme);
-    toggleBtn.textContent = savedTheme === 'light' ? '🌙' : '☀️';
+    toggleBtn.textContent = savedTheme === 'light' ? 'Dark' : 'Ligth';
   }
 
   toggleBtn.addEventListener('click', () => {
@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     html.setAttribute('data-theme', newTheme);
     localStorage.setItem('theme', newTheme);
-    toggleBtn.textContent = newTheme === 'light' ? '🌙' : '☀️';
+    toggleBtn.textContent = newTheme === 'light' ? 'Dark' : 'Ligth';
   });
 
 });
@@ -79,6 +79,13 @@ async function loadLanguage(lang) {
     const key = el.getAttribute('data-i18n');
     if (translations[key]) {
       el.textContent = translations[key];
+    }
+  });
+
+  document.querySelectorAll('[data-i18n-ph]').forEach(el => {
+    const key = el.getAttribute('data-i18n-ph');
+    if (translations[key]) {
+      el.setAttribute('placeholder', translations[key]);
     }
   });
 

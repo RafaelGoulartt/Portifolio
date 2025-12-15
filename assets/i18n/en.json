@@ -5,20 +5,91 @@
   "nav.skills": "Skills",
   "nav.contact": "Contact",
 
-  "hero.intro": "Hi, I'm Rafael",
-  "hero.title": "Web Developer focused on modern solutions",
-  "hero.text": "I build efficient, scalable web systems with clean design and solid code.",
+  "hero.intro": "Hi, I'm",
+  "hero.name": "Rafael",
+  "hero.role": "Full Stack Developer",
+  "hero.description": "Web development specialist using PHP, ASP Classic and SQL Server. I turn ideas into efficient and scalable digital solutions.",
+  "hero.cta.projects": "View Projects",
+  "hero.cta.contact": "Contact Me",
 
-  "about.title": "About me",
-  "about.text": "I'm a web developer experienced in building and maintaining systems, working on both front-end and back-end with focus on performance, organization, and usability.",
+  "about.title": "About Me",
+  "about.text1": "Developer experienced in building robust and scalable web solutions, specialized in backend technologies such as PHP and ASP Classic, with strong knowledge of SQL Server databases.",
+  "about.text2": "My focus is delivering clean, efficient and well-documented code, always applying best development practices and the right technologies for each project.",
+  "about.years": "Years Exp.",
+  "about.projects": "Projects",
+  "about.clients": "Clients",
+
+  "about.specialty.title": "Specialization",
+  "about.specialty.text": "Backend Development • Database Design • API Integration",
+
+  "about.methodology.title": "Methodology",
+  "about.methodology.text": "Clean Code • Agile Development • Documentation Focus",
+
+  "about.tools.title": "Tools",
+  "about.tools.text": "VS Code • Git • Composer • Docker • Postman",
+
+  "skills.title": "Skills & Technologies",
+
+  "metrics.title": "Impact & Results",
+  "metrics.subtitle": "Numbers that reflect quality and efficiency of delivered work",
+  "metrics.projects": "Delivered Projects",
+  "metrics.clients": "Satisfied Clients",
+  "metrics.satisfaction": "Customer Satisfaction",
+  "metrics.lines": "Lines of Code",
+
+  "techstack.title": "Tech Stack",
+  "techstack.subtitle": "Technologies and tools I use daily",
+
+  "process.title": "Work Methodology",
+  "process.subtitle": "How I work to ensure project quality and efficiency",
+
+  "process.step1.title": "Analysis & Planning",
+  "process.step1.desc": "Full understanding of requirements, technical analysis and definition of the ideal architecture.",
+
+  "process.step2.title": "Development",
+  "process.step2.desc": "Implementation following best practices, clean code and focus on performance and maintainability.",
+
+  "process.step3.title": "Testing & Quality",
+  "process.step3.desc": "Rigorous testing, code review and quality assurance before each delivery.",
+
+  "process.step4.title": "Delivery & Support",
+  "process.step4.desc": "Controlled deployment, complete documentation and post-delivery support.",
+
+  "cta.title": "Ready to Start Your Project?",
+  "cta.subtitle": "Let's turn your ideas into efficient and scalable digital solutions.",
+  "cta.button1": "Request a Quote",
 
   "projects.title": "Projects",
 
-  "skills.title": "Skills",
-  "skills.front": "Front-end",
-  "skills.back": "Back-end",
-  "skills.tools": "Tools",
 
-  "contact.title": "Let's talk?",
-  "contact.text": "Do you have a project or opportunity? Get in touch."
+  "contact.title": "Let's Talk",
+
+  "contact.email.title": "Email",
+  "contact.email.button": "Send Email",
+
+  "contact.linkedin.title": "LinkedIn",
+  "contact.linkedin.text": "Connect professionally",
+
+  "contact.whatsapp.title": "WhatsApp",
+
+  "contact.form.name": "Your name",
+  "contact.form.email": "Your email",
+  "contact.form.subject": "Subject",
+  "contact.form.message": "Your message",
+  "contact.form.submit": "Send Message",
+
+  "contact.alternative": "Or contact me directly:",
+
+  "contact.email": "Email",
+
+  "footer.tagline": "Full Stack Developer specialized in building efficient and scalable digital solutions for companies of all sizes.",
+
+  "footer.links.title": "Quick Links",
+
+  "footer.tech.title": "Technologies",
+
+  "footer.copyright": "© 2024 Rafael Goulart. All rights reserved.",
+  "footer.privacy": "Privacy Policy",
+  "footer.terms": "Terms of Service"
+
 }

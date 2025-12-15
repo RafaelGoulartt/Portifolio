@@ -5,20 +5,96 @@
   "nav.skills": "Skills",
   "nav.contact": "Contato",
 
-  "hero.intro": "Olá, eu sou o Rafael",
-  "hero.title": "Desenvolvedor Web focado em soluções modernas",
-  "hero.text": "Crio sistemas web eficientes, escaláveis e com design bem estruturado.",
+  "hero.intro": "Olá, eu sou",
+  "hero.name": "Rafael",
+  "hero.role": "Desenvolvedor Full Stack",
+  "hero.description": "Especialista em desenvolvimento web com PHP, ASP Classic e SQL Server. Transformo ideias em soluções digitais eficientes e escaláveis.",
+  "hero.cta.projects": "Ver Projetos",
+  "hero.cta.contact": "Entrar em Contato",
 
-  "about.title": "Sobre mim",
-  "about.text": "Sou desenvolvedor web com experiência em sistemas, atuando tanto no front-end quanto no back-end, focado em organização, performance e usabilidade.",
+  "about.title": "Sobre Mim",
+  "about.text1": "Desenvolvedor com experiência em criar soluções web robustas e escaláveis. Especializado em tecnologias backend como PHP e ASP Classic, com forte conhecimento em bancos de dados SQL Server.",
+  "about.text2": "Meu foco é entregar código limpo, eficiente e bem documentado, sempre buscando as melhores práticas de desenvolvimento e as tecnologias mais adequadas para cada projeto.",
+  "about.years": "Anos Exp.",
+  "about.projects": "Projetos",
+  "about.clients": "Clientes",
+
+  "about.specialty.title": "Especialização",
+  "about.specialty.text": "Backend Development • Database Design • API Integration",
+
+  "about.methodology.title": "Metodologia",
+  "about.methodology.text": "Clean Code • Agile Development • Documentation Focus",
+
+  "about.tools.title": "Ferramentas",
+  "about.tools.text": "VS Code • Git • Composer • Docker • Postman",
+
+  "skills.title": "Skills & Tecnologias",
+
+  "metrics.title": "Impacto & Resultados",
+  "metrics.subtitle": "Números que refletem a qualidade e eficiência do trabalho entregue",
+  "metrics.projects": "Projetos Entregues",
+  "metrics.clients": "Clientes Satisfeitos",
+  "metrics.satisfaction": "Satisfação do Cliente",
+  "metrics.lines": "Linhas de Código",
+
+  "techstack.title": "Stack Tecnológico",
+  "techstack.subtitle": "Tecnologias e ferramentas que utilizo no dia a dia",
+
+  "process.title": "Metodologia de Trabalho",
+  "process.subtitle": "Como trabalho para garantir a qualidade e eficiência dos projetos",
+
+  "process.step1.title": "Análise & Planejamento",
+  "process.step1.desc": "Entendimento completo dos requisitos, análise técnica e definição da arquitetura ideal para o projeto.",
+
+  "process.step2.title": "Desenvolvimento",
+  "process.step2.desc": "Implementação seguindo boas práticas, clean code e com foco em performance e manutenibilidade.",
+
+  "process.step3.title": "Testes & Qualidade",
+  "process.step3.desc": "Testes rigorosos, revisão de código e garantia de qualidade antes de cada entrega.",
+
+  "process.step4.title": "Entrega & Suporte",
+  "process.step4.desc": "Implantação controlada, documentação completa e suporte pós-entrega.",
+
+  "cta.title": "Pronto para Iniciar seu Projeto?",
+  "cta.subtitle": "Vamos transformar suas ideias em soluções digitais eficientes e escaláveis.",
+  "cta.button1": "Solicitar Orçamento",
 
   "projects.title": "Projetos",
 
-  "skills.title": "Skills",
-  "skills.front": "Front-end",
-  "skills.back": "Back-end",
-  "skills.tools": "Ferramentas",
 
-  "contact.title": "Vamos conversar?",
-  "contact.text": "Tem um projeto ou oportunidade? Entre em contato."
+  "contact.title": "Vamos Conversar",
+
+  "contact.email.title": "Email",
+  "contact.email.button": "Enviar Email",
+
+  "contact.linkedin.title": "LinkedIn",
+  "contact.linkedin.text": "Conecte-se profissionalmente",
+
+  "contact.whatsapp.title": "WhatsApp",
+
+  "contact.form.name": "Seu nome",
+  "contact.form.email": "Seu e-mail",
+  "contact.form.subject": "Assunto",
+  "contact.form.message": "Sua mensagem",
+  "contact.form.submit": "Enviar Mensagem",
+
+  "contact.alternative": "Ou entre em contato diretamente:",
+
+  "contact.email": "E-mail",
+
+  "footer.tagline": "Desenvolvedor Full Stack especializado em criar soluções digitais eficientes e escaláveis para empresas de todos os tamanhos.",
+
+  "footer.links.title": "Links Rápidos",
+
+  "footer.tech.title": "Tecnologias",
+
+  "footer.copyright": "© 2024 Rafael Goulart. Todos os direitos reservados.",
+  "footer.privacy": "Política de Privacidade",
+  "footer.terms": "Termos de Uso"
+
+
+  
 }
+
+
+
