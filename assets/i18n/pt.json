@@ -61,7 +61,6 @@
 
   "projects.title": "Projetos",
 
-
   "contact.title": "Vamos Conversar",
 
   "contact.email.title": "Email",
@@ -69,18 +68,10 @@
 
   "contact.linkedin.title": "LinkedIn",
   "contact.linkedin.text": "Conecte-se profissionalmente",
-
+  "contact.profile.button": "Ver perfil",
+  
   "contact.whatsapp.title": "WhatsApp",
-
-  "contact.form.name": "Seu nome",
-  "contact.form.email": "Seu e-mail",
-  "contact.form.subject": "Assunto",
-  "contact.form.message": "Sua mensagem",
-  "contact.form.submit": "Enviar Mensagem",
-
-  "contact.alternative": "Ou entre em contato diretamente:",
-
-  "contact.email": "E-mail",
+  "contact.whatsapp.button": "Enviar mensagem",
 
   "footer.tagline": "Desenvolvedor Full Stack especializado em criar soluções digitais eficientes e escaláveis para empresas de todos os tamanhos.",
 

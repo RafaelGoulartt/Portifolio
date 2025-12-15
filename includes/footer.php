@@ -5,96 +5,30 @@
     
     <div class="contact-info-grid">
       <div class="contact-method">
-        <div class="contact-icon">📧</div>
+        <div class="contact-icon"><i class="bi bi-envelope"></i></div>
         <h3 data-i18n="contact.email.title">Email</h3>
-        <p>rafael.dev@email.com</p>
-        <a href="mailto:rafael.dev@email.com" class="btn btn-accent btn-sm mt-2" data-i18n="contact.email.button">
+        <p>rafaelgoulartferreira18@gmail.com</p>
+        <a href="mailto:rafaelgoulartferreira18@gmail.com" class="btn btn-accent btn-sm mt-2" data-i18n="contact.email.button">
           Enviar Email
         </a>
       </div>
       
       <div class="contact-method">
-        <div class="contact-icon">💼</div>
+        <div class="contact-icon"><i class="bi bi-linkedin"></i></div>
         <h3 data-i18n="contact.linkedin.title">LinkedIn</h3>
         <p data-i18n="contact.linkedin.text">Conecte-se profissionalmente</p>
-        <a href="https://linkedin.com/in/seuperfil" target="_blank" class="btn btn-accent btn-sm mt-2">
+        <a data-i18n="contact.profile.button" href="https://linkedin.com/in/rafaelgoulartt/" target="_blank" class="btn btn-accent btn-sm mt-2">
           Ver Perfil
         </a>
       </div>
       
       <div class="contact-method">
-        <div class="contact-icon">📱</div>
+        <div class="contact-icon"><i class="bi bi-whatsapp"></i></div>
         <h3 data-i18n="contact.whatsapp.title">WhatsApp</h3>
-        <p>+55 (11) 99999-9999</p>
-        <a href="https://wa.me/5511999999999" target="_blank" class="btn btn-accent btn-sm mt-2">
+        <p>+55 (11) 94888-7525</p>
+        <a data-i18n="contact.whatsapp.button" href="https://wa.me/5511948887525" target="_blank" class="btn btn-accent btn-sm mt-2">
           Enviar Mensagem
         </a>
-      </div>
-    </div>
-    
-    <!-- Formulário de contato existente -->
-    <div class="row justify-content-center mt-5">
-      <div class="col-lg-8">
-        <div class="contact-form">
-          <form id="contactForm">
-            <div class="row g-3">
-                <div class="col-md-6">
-                    <input type="text" 
-                        class="form-control" 
-                        placeholder="Seu nome" 
-                        required
-                        data-i18n-ph="contact.form.name">
-                </div>
-                <div class="col-md-6">
-                    <input type="email" 
-                        class="form-control" 
-                        placeholder="Seu e-mail" 
-                        required
-                        data-i18n-ph="contact.form.email">
-                </div>
-                <div class="col-12">
-                    <input type="text" 
-                        class="form-control" 
-                        placeholder="Assunto" 
-                        required
-                        data-i18n-ph="contact.form.subject">
-                </div>
-                <div class="col-12">
-                    <textarea class="form-control" 
-                            rows="5" 
-                            placeholder="Sua mensagem" 
-                            required
-                            data-i18n-ph="contact.form.message"></textarea>
-                </div>
-                <div class="col-12">
-                    <button type="submit" class="btn btn-accent w-100" data-i18n="contact.form.submit">
-                    Enviar Mensagem
-                    </button>
-                </div>
-                </div>
-            </form>
-            
-            <div class="text-center mt-5 pt-4 border-top">
-                <p class="mb-4" data-i18n="contact.alternative">Ou entre em contato diretamente:</p>
-                
-                <div class="d-flex flex-column flex-md-row justify-content-center gap-3">
-                <a href="mailto:seuemail@email.com" class="btn btn-outline-light">
-                    <i class="bi bi-envelope me-2"></i>
-                    <span data-i18n="contact.email">E-mail</span>
-                </a>
-                
-                <a href="https://linkedin.com/in/seuperfil" target="_blank" class="btn btn-outline-light">
-                    <i class="bi bi-linkedin me-2"></i>
-                    LinkedIn
-                </a>
-                
-                <a href="https://github.com/seuperfil" target="_blank" class="btn btn-outline-light">
-                    <i class="bi bi-github me-2"></i>
-                    GitHub
-                </a>
-                </div>
-            </div>
-        </div>
       </div>
     </div>
   </div>

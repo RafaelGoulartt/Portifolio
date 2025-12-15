@@ -581,69 +581,6 @@ footer {
   font-size: 1.25rem;
 }
 
-/* ========== METRICS SECTION ========== */
-.metrics-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 2rem;
-  margin: 3rem 0;
-}
-
-.metric-card {
-  text-align: center;
-  padding: 2rem;
-  background: var(--bg-card);
-  border-radius: var(--border-radius);
-  border: 1px solid rgba(148, 163, 184, 0.1);
-  transition: all 0.3s ease;
-}
-
-.metric-card:hover {
-  border-color: var(--accent);
-  transform: translateY(-5px);
-}
-
-.metric-number {
-  font-size: 2.5rem;
-  font-weight: 700;
-  background: linear-gradient(to right, var(--accent), #3b82f6);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 0.5rem;
-}
-
-.metric-label {
-  color: var(--text-muted);
-  font-size: 0.9rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-/* ========== TECH STACK CLOUD ========== */
-.tech-cloud {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
-  margin: 2rem 0;
-}
-
-.tech-tag {
-  padding: 0.5rem 1.25rem;
-  background: var(--accent-soft);
-  color: var(--accent);
-  border-radius: 30px;
-  font-size: 0.9rem;
-  font-weight: 500;
-  transition: all 0.3s ease;
-  border: 1px solid transparent;
-}
-
-.tech-tag:hover {
-  background: var(--accent);
-  color: white;
-  transform: scale(1.05);
-}
 
 /* ========== PROCESS TIMELINE ========== */
 .process-timeline {

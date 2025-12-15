@@ -61,7 +61,6 @@
 
   "projects.title": "Projects",
 
-
   "contact.title": "Let's Talk",
 
   "contact.email.title": "Email",
@@ -69,18 +68,10 @@
 
   "contact.linkedin.title": "LinkedIn",
   "contact.linkedin.text": "Connect professionally",
+  "contact.profile.button": "view profile",
 
   "contact.whatsapp.title": "WhatsApp",
-
-  "contact.form.name": "Your name",
-  "contact.form.email": "Your email",
-  "contact.form.subject": "Subject",
-  "contact.form.message": "Your message",
-  "contact.form.submit": "Send Message",
-
-  "contact.alternative": "Or contact me directly:",
-
-  "contact.email": "Email",
+  "contact.whatsapp.button": "send message",
 
   "footer.tagline": "Full Stack Developer specialized in building efficient and scalable digital solutions for companies of all sizes.",
 
