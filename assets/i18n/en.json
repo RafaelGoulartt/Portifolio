@@ -1,0 +1,24 @@
+{
+  "nav.home": "Home",
+  "nav.about": "About",
+  "nav.projects": "Projects",
+  "nav.skills": "Skills",
+  "nav.contact": "Contact",
+
+  "hero.intro": "Hi, I'm Rafael",
+  "hero.title": "Web Developer focused on modern solutions",
+  "hero.text": "I build efficient, scalable web systems with clean design and solid code.",
+
+  "about.title": "About me",
+  "about.text": "I'm a web developer experienced in building and maintaining systems, working on both front-end and back-end with focus on performance, organization, and usability.",
+
+  "projects.title": "Projects",
+
+  "skills.title": "Skills",
+  "skills.front": "Front-end",
+  "skills.back": "Back-end",
+  "skills.tools": "Tools",
+
+  "contact.title": "Let's talk?",
+  "contact.text": "Do you have a project or opportunity? Get in touch."
+}

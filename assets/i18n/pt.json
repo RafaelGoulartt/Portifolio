@@ -1,0 +1,24 @@
+{
+  "nav.home": "Início",
+  "nav.about": "Sobre",
+  "nav.projects": "Projetos",
+  "nav.skills": "Skills",
+  "nav.contact": "Contato",
+
+  "hero.intro": "Olá, eu sou o Rafael",
+  "hero.title": "Desenvolvedor Web focado em soluções modernas",
+  "hero.text": "Crio sistemas web eficientes, escaláveis e com design bem estruturado.",
+
+  "about.title": "Sobre mim",
+  "about.text": "Sou desenvolvedor web com experiência em sistemas, atuando tanto no front-end quanto no back-end, focado em organização, performance e usabilidade.",
+
+  "projects.title": "Projetos",
+
+  "skills.title": "Skills",
+  "skills.front": "Front-end",
+  "skills.back": "Back-end",
+  "skills.tools": "Ferramentas",
+
+  "contact.title": "Vamos conversar?",
+  "contact.text": "Tem um projeto ou oportunidade? Entre em contato."
+}
