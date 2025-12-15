@@ -1,3 +1,7 @@
+<?php
+require_once __DIR__ . '/config.php';
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br" data-theme="dark">
 <head>
@@ -27,7 +31,7 @@
 
 <nav class="navbar navbar-expand-lg fixed-top navbar-dark custom-navbar">
   <div class="container">
-    <a class="navbar-brand fw-bold" href="/">RAFAEL GOULART</span></a>
+    <a class="navbar-brand fw-bold" href="<?= BASE_URL ?>">RAFAEL GOULART</span></a>
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
       <span class="navbar-toggler-icon"></span>

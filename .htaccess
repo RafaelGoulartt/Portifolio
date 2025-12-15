@@ -1,8 +1,16 @@
 RewriteEngine On
 
-# Evita conflito se o arquivo ou pasta existir
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
+# Base do projeto
+RewriteBase /Portifolio/
 
-# Rota de projetos
+# Página inicial
+RewriteRule ^$ index.php [L]
+
+# Página de projetos
 RewriteRule ^projeto/([a-zA-Z0-9_-]+)$ projeto.php?slug=$1 [L,QSA]
+
+# Política de Privacidade
+RewriteRule ^privacy/?$ privacy.php [L]
+
+# Termos de Uso
+RewriteRule ^terms/?$ terms.php [L]

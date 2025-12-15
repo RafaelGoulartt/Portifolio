@@ -67,8 +67,8 @@
     
     <div class="copyright-bar">
       <p data-i18n="footer.copyright">© 2024 Rafael Goulart. Todos os direitos reservados.</p>
-      <p><a href="/privacy" data-i18n="footer.privacy">Política de Privacidade</a> • 
-         <a href="/terms" data-i18n="footer.terms">Termos de Uso</a></p>
+      <p><a href="/Portifolio/privacy" data-i18n="footer.privacy">Política de Privacidade</a> • 
+         <a href="/Portifolio/terms" data-i18n="footer.terms">Termos de Uso</a></p>
     </div>
   </div>
 </footer>
