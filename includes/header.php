@@ -43,19 +43,19 @@ $isHome = ($paginaAtual === 'index.php');
     <div class="collapse navbar-collapse" id="navMenu">
       <ul class="navbar-nav ms-auto align-items-lg-center">
         <?php if ($isHome): ?>
-          <li class="nav-item"><a class="nav-link" href="#hero" data-i18n="nav.home">Início</a></li>
-          <li class="nav-item"><a class="nav-link" href="#sobre" data-i18n="nav.about">Sobre</a></li>
-          <li class="nav-item"><a class="nav-link" href="#skills" data-i18n="nav.skills">Skills</a></li>
-          <li class="nav-item"><a class="nav-link" href="#projetos" data-i18n="nav.projects">Projetos</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contato" data-i18n="nav.contact">Contato</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#hero" data-i18n="nav.home">Início</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#sobre" data-i18n="nav.about">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#skills" data-i18n="nav.skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#projetos" data-i18n="nav.projects">Projetos</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#contato" data-i18n="nav.contact">Contato</a></li>
         <?php endif; ?>
 
         <li class="nav-item d-flex align-items-center ms-lg-3 mt-2 mt-lg-0">
           <div class="btn-group" role="group">
-            <button id="themeToggle" class="btn btn-sm btn-outline-light">
+            <button id="themeToggle" class="btn btn-sm btn-outline-light text-white">
               <i class="bi bi-moon-stars"></i>
             </button>
-            <button id="langToggle" class="btn btn-sm btn-outline-light">
+            <button id="langToggle" class="btn btn-sm btn-outline-light text-white">
               EN
             </button>
           </div>

@@ -30,10 +30,6 @@ $projetosPagina = array_slice($projetos, $startIndex, $itemsPerPage);
             <span class="stat-number"><?= $totalProjetos ?></span>
             <span class="stat-label"><?= $lang === 'pt' ? 'Projetos' : 'Projects' ?></span>
           </span>
-          <span class="stat-item">
-            <span class="stat-number"><?= date('Y') - 2020 ?></span>
-            <span class="stat-label"><?= $lang === 'pt' ? 'Anos' : 'Years' ?></span>
-          </span>
         </div>
       </div>
       <div class="col-lg-4 text-lg-end">
@@ -93,7 +89,7 @@ $projetosPagina = array_slice($projetos, $startIndex, $itemsPerPage);
 
               <div class="project-content">
                 <div class="project-header">
-                  <h3 class="project-titleIndex"><?= $p['titulo'][$lang] ?></h3>
+                  <h3 class="project-titleIndex text-white"><?= $p['titulo'][$lang] ?></h3>
                   <div class="project-year"><?= $p['ano'] ?? '2024' ?></div>
                 </div>
                 

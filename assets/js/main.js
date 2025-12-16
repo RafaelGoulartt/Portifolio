@@ -39,28 +39,34 @@ document.addEventListener('DOMContentLoaded', () => {
 /* --------------------------------------------------
      Mudança do Tema Escuro para o tema claro
   -------------------------------------------------- */
-
 document.addEventListener('DOMContentLoaded', () => {
 
   const toggleBtn = document.getElementById('themeToggle');
   const html = document.documentElement;
+  const icon = toggleBtn.querySelector('i');
 
-  const savedTheme = localStorage.getItem('theme');
-  if (savedTheme) {
-    html.setAttribute('data-theme', savedTheme);
-    toggleBtn.textContent = savedTheme === 'light' ? 'Dark' : 'Ligth';
-  }
+  const setTheme = (theme) => {
+    html.setAttribute('data-theme', theme);
+    localStorage.setItem('theme', theme);
+
+    if (theme === 'light') {
+      icon.className = 'bi bi-moon-stars'; // mostra lua (opção de escuro)
+    } else {
+      icon.className = 'bi bi-sun'; // mostra sol (opção de claro)
+    }
+  };
+
+  const savedTheme = localStorage.getItem('theme') || 'dark';
+  setTheme(savedTheme);
 
   toggleBtn.addEventListener('click', () => {
-    const currentTheme = html.getAttribute('data-theme') || 'dark';
+    const currentTheme = html.getAttribute('data-theme');
     const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-
-    html.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
-    toggleBtn.textContent = newTheme === 'light' ? 'Dark' : 'Ligth';
+    setTheme(newTheme);
   });
 
 });
+
 
 /* --------------------------------------------------
      Mudança do idioma 

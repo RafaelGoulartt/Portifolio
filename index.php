@@ -173,7 +173,7 @@ include 'data/projetos.php';
             style="transition-delay: <?= $index * 0.1 ?>s"
           >
             <img src="<?= $skill['icon'] ?>" alt="<?= $skill['nome'] ?>">
-            <span><?= $skill['nome'] ?></span>
+            <span class="text-white"><?= $skill['nome'] ?></span>
           </div>
         </div>
       <?php endforeach; ?>
