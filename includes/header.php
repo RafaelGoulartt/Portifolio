@@ -1,5 +1,8 @@
 <?php
 require_once __DIR__ . '/config.php';
+
+$paginaAtual = basename($_SERVER['SCRIPT_NAME']);
+$isHome = ($paginaAtual === 'index.php');
 ?>
 
 <!DOCTYPE html>
@@ -39,18 +42,20 @@ require_once __DIR__ . '/config.php';
     
     <div class="collapse navbar-collapse" id="navMenu">
       <ul class="navbar-nav ms-auto align-items-lg-center">
-        <li class="nav-item"><a class="nav-link" href="#hero" data-i18n="nav.home">Início</a></li>
-        <li class="nav-item"><a class="nav-link" href="#sobre" data-i18n="nav.about">Sobre</a></li>
-        <li class="nav-item"><a class="nav-link" href="#skills" data-i18n="nav.skills">Skills</a></li>
-        <li class="nav-item"><a class="nav-link" href="#projetos" data-i18n="nav.projects">Projetos</a></li>
-        <li class="nav-item"><a class="nav-link" href="#contato" data-i18n="nav.contact">Contato</a></li>
-        
+        <?php if ($isHome): ?>
+          <li class="nav-item"><a class="nav-link" href="#hero" data-i18n="nav.home">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sobre" data-i18n="nav.about">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills" data-i18n="nav.skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projetos" data-i18n="nav.projects">Projetos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato" data-i18n="nav.contact">Contato</a></li>
+        <?php endif; ?>
+
         <li class="nav-item d-flex align-items-center ms-lg-3 mt-2 mt-lg-0">
           <div class="btn-group" role="group">
-            <button id="themeToggle" class="btn btn-sm btn-outline-light" title="Alternar tema">
+            <button id="themeToggle" class="btn btn-sm btn-outline-light">
               <i class="bi bi-moon-stars"></i>
             </button>
-            <button id="langToggle" class="btn btn-sm btn-outline-light" data-i18n="nav.lang">
+            <button id="langToggle" class="btn btn-sm btn-outline-light">
               EN
             </button>
           </div>

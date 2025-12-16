@@ -33,11 +33,27 @@ include 'data/projetos.php';
       </div>
       
       <div class="col-lg-6 mt-5 mt-lg-0" data-animate="fade-left">
-        <div class="position-relative floating">
-          <div class="position-absolute top-0 start-0 w-100 h-100 bg-gradient-primary rounded-circle opacity-10 blur"></div>
-          <img src="/Portifolio/assets/img/hero-illustration" 
-               alt="Desenvolvimento Web" 
-               class="img-fluid position-relative">
+        <div class="hero-image-container">
+          <!-- Moldura decorativa -->
+          <div class="image-frame frame-1"></div>
+          <div class="image-frame frame-2"></div>
+          <div class="image-frame frame-3"></div>
+          
+          <!-- Container principal da imagem -->
+          <div class="image-wrapper">
+            <img src="/Portifolio/assets/img/hero-illustration.jpeg" 
+                alt="Desenvolvimento Web" 
+                class="hero-main-image">
+            
+            <!-- Efeito de brilho -->
+            <div class="image-glow"></div>
+            
+            <!-- Badge flutuante -->
+            <div class="floating-badge">
+              <span class="badge-icon">💻</span>
+              <span class="badge-text">Full Stack</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
