@@ -140,5 +140,19 @@
   "privacy.section8.content": "Esta política pode ser atualizada a qualquer momento, sendo recomendada a revisão periódica desta página.",
   "privacy.section9.title": "9. Contato",
   "privacy.section9.content": "Em caso de dúvidas sobre esta Política de Privacidade, entre em contato pelo e-mail: <strong>rafaelgoulartferreira18@gmail.com</strong>",
-  "privacy.backButton": "← Voltar para o site"
+  "privacy.backButton": "← Voltar para o site",
+
+  "project.about": "Sobre o Projeto",
+  "project.features": "Funcionalidades",
+  "project.technicalDetails": "Detalhes Técnicos",
+  "project.category": "Categoria",
+  "project.year": "Ano",
+  "project.status": "Status",
+  "project.statusCompleted": "Concluído",
+  "project.viewProject": "Ver Projeto",
+  "project.sourceCode": "Código Fonte",
+  "project.projectNotFound": "Projeto não encontrado",
+  "project.backButton": "← Voltar",
+
+    "project.viewProjectButton": "Ver projeto →"
 }

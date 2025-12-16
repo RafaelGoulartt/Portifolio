@@ -8,8 +8,8 @@ include 'includes/header.php';
 /* valida slug */
 if (!$slug || !isset($projetos[$slug])) {
   echo '<div class="container section-padding">';
-  echo '<h2>Projeto não encontrado</h2>';
-  echo '<a href="index.php" class="btn btn-outline-secondary mt-3">Voltar</a>';
+  echo '<h2 data-i18n="project.projectNotFound">Projeto não encontrado</h2>';
+  echo '<a href="index.php?lang=' . $lang . '" class="btn btn-outline-secondary mt-3" data-i18n="project.backButton">← Voltar</a>';
   echo '</div>';
   include 'includes/footer.php';
   exit;
@@ -57,14 +57,14 @@ $projeto = $projetos[$slug];
           <?php if (isset($projeto['link_live']) && $projeto['link_live'] != '#'): ?>
             <a href="<?= $projeto['link_live'] ?>" target="_blank" class="btn-project-action btn-live">
               <span class="action-icon">🌐</span>
-              <span class="action-text"><?= $lang === 'pt' ? 'Ver Projeto' : 'View Project' ?></span>
+              <span class="action-text" data-i18n="project.viewProject">Ver Projeto</span>
             </a>
           <?php endif; ?>
           
           <?php if (isset($projeto['link_repo']) && $projeto['link_repo'] != '#'): ?>
             <a href="<?= $projeto['link_repo'] ?>" target="_blank" class="btn-project-action btn-repo">
               <span class="action-icon">📂</span>
-              <span class="action-text"><?= $lang === 'pt' ? 'Código Fonte' : 'Source Code' ?></span>
+              <span class="action-text" data-i18n="project.sourceCode">Código Fonte</span>
             </a>
           <?php endif; ?>
         </div>
@@ -98,7 +98,7 @@ $projeto = $projetos[$slug];
         <div class="project-content-card">
           <h2 class="section-heading">
             <span class="heading-number">01</span>
-            <?= $lang === 'pt' ? 'Sobre o Projeto' : 'About the Project' ?>
+            <span data-i18n="project.about">Sobre o Projeto</span>
           </h2>
           
           <div class="project-description">
@@ -109,7 +109,7 @@ $projeto = $projetos[$slug];
             <div class="project-features mt-5">
               <h3 class="features-title">
                 <span class="heading-number">02</span>
-                <?= $lang === 'pt' ? 'Funcionalidades' : 'Features' ?>
+                <span data-i18n="project.features">Funcionalidades</span>
               </h3>
               
               <div class="features-grid">
@@ -136,23 +136,23 @@ $projeto = $projetos[$slug];
           <div class="sidebar-card">
             <h3 class="sidebar-title">
               <span class="title-icon">⚙️</span>
-              <?= $lang === 'pt' ? 'Detalhes Técnicos' : 'Technical Details' ?>
+              <span data-i18n="project.technicalDetails">Detalhes Técnicos</span>
             </h3>
             
             <div class="sidebar-details">
               <div class="detail-item">
-                <span class="detail-label"><?= $lang === 'pt' ? 'Categoria' : 'Category' ?></span>
+                <span class="detail-label" data-i18n="project.category">Categoria</span>
                 <span class="detail-value"><?= $projeto['categoria'] ?? 'Web' ?></span>
               </div>
               
               <div class="detail-item">
-                <span class="detail-label"><?= $lang === 'pt' ? 'Ano' : 'Year' ?></span>
+                <span class="detail-label" data-i18n="project.year">Ano</span>
                 <span class="detail-value"><?= $projeto['ano'] ?? '2024' ?></span>
               </div>
               
               <div class="detail-item">
-                <span class="detail-label"><?= $lang === 'pt' ? 'Status' : 'Status' ?></span>
-                <span class="detail-value status-completed"><?= $lang === 'pt' ? 'Concluído' : 'Completed' ?></span>
+                <span class="detail-label" data-i18n="project.status">Status</span>
+                <span class="detail-value status-completed" data-i18n="project.statusCompleted">Concluído</span>
               </div>            
             </div>
           </div>        
@@ -161,6 +161,5 @@ $projeto = $projetos[$slug];
     </div>
   </div>
 </section>
-
 
 <?php include 'includes/footer.php'; ?>

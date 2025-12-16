@@ -140,5 +140,19 @@
   "privacy.section8.content": "This policy may be updated at any time, and periodic review of this page is recommended.",
   "privacy.section9.title": "9. Contact",
   "privacy.section9.content": "For questions about this Privacy Policy, contact us by email: <strong>rafaelgoulartferreira18@gmail.com</strong>",
-  "privacy.backButton": "← Back to website"
+  "privacy.backButton": "← Back to website",
+
+  "project.about": "About the Project",
+  "project.features": "Features",
+  "project.technicalDetails": "Technical Details",
+  "project.category": "Category",
+  "project.year": "Year",
+  "project.status": "Status",
+  "project.statusCompleted": "Completed",
+  "project.viewProject": "View Project",
+  "project.sourceCode": "Source Code",
+  "project.projectNotFound": "Project not found",
+  "project.backButton": "← Back",
+
+  "project.viewProjectButton": "View Project →"
 }

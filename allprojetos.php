@@ -19,55 +19,56 @@ $projetosPagina = array_slice($projetos, $startIndex, $itemsPerPage);
   <div class="container">
     <div class="row align-items-center min-vh-50">
       <div class="col-lg-8">
-        <h1 class="page-title" data-animate="fade-up">
-          <?= $lang === 'pt' ? 'Todos os Projetos' : 'All Projects' ?>
+        <h1 class="page-title" data-animate="fade-up" data-i18n="projects.allProjects">
+          Todos os Projetos
         </h1>
-        <p class="page-subtitle" data-animate="fade-up" data-delay="0.1">
-          <?= $lang === 'pt' ? 'Explore minha coleção completa de projetos desenvolvidos' : 'Explore my complete collection of developed projects' ?>
+        <p class="page-subtitle" data-animate="fade-up" data-delay="0.1" data-i18n="projects.exploreCollection">
+          Explore minha coleção completa de projetos desenvolvidos
         </p>
         <div class="projects-stats" data-animate="fade-up" data-delay="0.2">
           <span class="stat-item">
             <span class="stat-number"><?= $totalProjetos ?></span>
-            <span class="stat-label"><?= $lang === 'pt' ? 'Projetos' : 'Projects' ?></span>
+            <span class="stat-label" data-i18n="projects.projects">Projetos</span>
           </span>
         </div>
       </div>
       <div class="col-lg-4 text-lg-end">
-        <a href="index.php<?= $lang !== 'pt' ? '?lang=' . $lang : '' ?>#projetos" class="btn-back-to-home" data-animate="fade-up" data-delay="0.3">
-          ← <?= $lang === 'pt' ? 'Voltar ao Início' : 'Back to Home' ?>
+        <a href="index.php<?= $lang !== 'pt' ? '?lang=' . $lang : '' ?>#projetos" class="btn-back-to-home" data-animate="fade-up" data-delay="0.3" data-i18n="projects.backHome">
+          ← Voltar ao Início
         </a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Filtros (opcional) -->
+<!-- Filtros -->
 <section class="section-padding">
   <div class="container">
     <div class="projects-filters mb-5">
       <div class="filter-tags">
-        <button class="filter-tag active" data-filter="all">
-          <?= $lang === 'pt' ? 'Todos' : 'All' ?>
+        <button class="filter-tag active" data-filter="all" data-i18n="projects.filters.all">
+          Todos
         </button>
-        <button class="filter-tag" data-filter="web">
-          <?= $lang === 'pt' ? 'Web' : 'Web' ?>
+        <button class="filter-tag" data-filter="web" data-i18n="projects.filters.web">
+          Web
         </button>
-        <button class="filter-tag" data-filter="mobile">
-          <?= $lang === 'pt' ? 'Mobile' : 'Mobile' ?>
+        <button class="filter-tag" data-filter="mobile" data-i18n="projects.filters.mobile">
+          Mobile
         </button>
-        <button class="filter-tag" data-filter="design">
-          <?= $lang === 'pt' ? 'Design' : 'Design' ?>
+        <button class="filter-tag" data-filter="design" data-i18n="projects.filters.design">
+          Design
         </button>
-        <button class="filter-tag" data-filter="fullstack">
-          <?= $lang === 'pt' ? 'Full Stack' : 'Full Stack' ?>
+        <button class="filter-tag" data-filter="fullstack" data-i18n="projects.filters.fullstack">
+          Full Stack
         </button>
       </div>
       
       <div class="projects-search">
         <input type="text" 
                class="search-input" 
-               placeholder="<?= $lang === 'pt' ? 'Buscar projetos...' : 'Search projects...' ?>"
-               id="projectsSearch">
+               placeholder="Buscar projetos..."
+               id="projectsSearch"
+               data-i18n-placeholder="projects.search">
       </div>
     </div>
 
@@ -111,12 +112,12 @@ $projetosPagina = array_slice($projetos, $startIndex, $itemsPerPage);
                 <div class="project-footer">
                   <div class="project-links">
                     <?php if (isset($p['link_live']) && !empty($p['link_live'])): ?>
-                      <a href="<?= $p['link_live'] ?>" target="_blank" class="project-link" title="Ver ao vivo">
+                      <a href="<?= $p['link_live'] ?>" target="_blank" class="project-link" title="<?= $lang === 'pt' ? 'Ver ao vivo' : 'View Live' ?>">
                         🌐
                       </a>
                     <?php endif; ?>
                     <?php if (isset($p['link_repo']) && !empty($p['link_repo'])): ?>
-                      <a href="<?= $p['link_repo'] ?>" target="_blank" class="project-link" title="Código fonte">
+                      <a href="<?= $p['link_repo'] ?>" target="_blank" class="project-link" title="<?= $lang === 'pt' ? 'Código fonte' : 'Source Code' ?>">
                         📂
                       </a>
                     <?php endif; ?>
@@ -135,8 +136,8 @@ $projetosPagina = array_slice($projetos, $startIndex, $itemsPerPage);
         <ul class="pagination justify-content-center">
           <?php if ($page > 1): ?>
             <li class="page-item">
-              <a class="page-link" href="projetos.php?lang=<?= $lang ?>&page=<?= $page - 1 ?>">
-                ← <?= $lang === 'pt' ? 'Anterior' : 'Previous' ?>
+              <a class="page-link" href="projetos.php?lang=<?= $lang ?>&page=<?= $page - 1 ?>" data-i18n="projects.previous">
+                ← Anterior
               </a>
             </li>
           <?php endif; ?>
@@ -149,8 +150,8 @@ $projetosPagina = array_slice($projetos, $startIndex, $itemsPerPage);
           
           <?php if ($page < $totalPages): ?>
             <li class="page-item">
-              <a class="page-link" href="projetos.php?lang=<?= $lang ?>&page=<?= $page + 1 ?>">
-                <?= $lang === 'pt' ? 'Próxima' : 'Next' ?> →
+              <a class="page-link" href="projetos.php?lang=<?= $lang ?>&page=<?= $page + 1 ?>" data-i18n="projects.next">
+                Próxima →
               </a>
             </li>
           <?php endif; ?>
@@ -158,8 +159,8 @@ $projetosPagina = array_slice($projetos, $startIndex, $itemsPerPage);
         
         <div class="pagination-info text-center mt-3">
           <span class="text-muted">
-            <?= $lang === 'pt' ? 'Página ' . $page . ' de ' . $totalPages : 'Page ' . $page . ' of ' . $totalPages ?>
-            (<?= $lang === 'pt' ? 'Mostrando ' . count($projetosPagina) . ' projetos' : 'Showing ' . count($projetosPagina) . ' projects' ?>)
+            <span data-i18n="projects.page">Página</span> <?= $page ?> <span data-i18n="projects.of">de</span> <?= $totalPages ?>
+            (<span data-i18n="projects.showing">Mostrando</span> <?= count($projetosPagina) ?> <span data-i18n="projects.projects">projetos</span>)
           </span>
         </div>
       </nav>
