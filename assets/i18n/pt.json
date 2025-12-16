@@ -8,7 +8,7 @@
   "hero.intro": "Olá, eu sou",
   "hero.name": "Rafael",
   "hero.role": "Desenvolvedor Full Stack",
-  "hero.description": "Especialista em desenvolvimento web com PHP, ASP Classic e SQL Server. Transformo ideias em soluções digitais eficientes e escaláveis.",
+  "hero.description": "Desenvolvedor web com PHP, ASP Classic e SQL Server. Transformo ideias em soluções digitais eficientes e escaláveis.",
   "hero.cta.projects": "Ver Projetos",
   "hero.cta.contact": "Entrar em Contato",
 
@@ -20,13 +20,13 @@
   "about.clients": "Clientes",
 
   "about.specialty.title": "Especialização",
-  "about.specialty.text": "Backend Development • Database Design • API Integration",
+  "about.specialty.text": "Desenvolvimento Backend • Integração de API",
 
   "about.methodology.title": "Metodologia",
-  "about.methodology.text": "Clean Code • Agile Development • Documentation Focus",
+  "about.methodology.text": "Código limpo • Desenvolvimento ágil • Foco na documentação",
 
   "about.tools.title": "Ferramentas",
-  "about.tools.text": "VS Code • Git • Composer • Docker • Postman",
+  "about.tools.text": "VS Code • Git • Postman",
 
   "skills.title": "Skills & Tecnologias",
 
@@ -81,11 +81,64 @@
 
   "footer.copyright": "© 2024 Rafael Goulart. Todos os direitos reservados.",
   "footer.privacy": "Política de Privacidade",
-  "footer.terms": "Termos de Uso"
+  "footer.terms": "Termos de Uso",
 
+  "terms.title": "Termos de Uso",
+  "terms.lastUpdate": "Última atualização",
+  "terms.intro": "Ao acessar e utilizar este site, você concorda com os presentes Termos de Uso. Caso não concorde com algum ponto, recomenda-se não utilizar o site.",
+  "terms.section1.title": "1. Objetivo do Site",
+  "terms.section1.content": "Este site tem como finalidade apresentar o portfólio profissional, projetos desenvolvidos e permitir contato para oportunidades comerciais e profissionais.",
+  "terms.section2.title": "2. Uso Permitido",
+  "terms.section2.content": "O usuário compromete-se a utilizar este site de forma lícita, ética e em conformidade com a legislação vigente.",
+  "terms.section3.title": "3. Propriedade Intelectual",
+  "terms.section3.content": "Todo o conteúdo presente neste site, incluindo textos, imagens, códigos-fonte, layout e identidade visual, é de propriedade de <strong>Rafael Goulart</strong>, salvo quando indicado o contrário.",
+  "terms.section3.content2": "É proibida a reprodução, distribuição ou modificação de qualquer conteúdo sem autorização prévia e expressa.",
+  "terms.section4.title": "4. Responsabilidades",
+  "terms.section4.content": "Não garantimos que o site estará disponível de forma ininterrupta ou livre de erros. O uso das informações aqui contidas é de inteira responsabilidade do usuário.",
+  "terms.section5.title": "5. Links para Terceiros",
+  "terms.section5.content": "O site pode conter links para sites de terceiros. Não nos responsabilizamos pelo conteúdo, políticas ou práticas desses sites.",
+  "terms.section6.title": "6. Limitação de Responsabilidade",
+  "terms.section6.content": "Em nenhuma hipótese o responsável pelo site será responsável por danos diretos ou indiretos decorrentes do uso ou da impossibilidade de uso deste site.",
+  "terms.section7.title": "7. Alterações nos Termos",
+  "terms.section7.content": "Estes Termos de Uso podem ser modificados a qualquer momento, sendo recomendada a consulta periódica.",
+  "terms.section8.title": "8. Legislação Aplicável",
+  "terms.section8.content": "Estes termos são regidos pelas leis da República Federativa do Brasil.",
+  "terms.backButton": "← Voltar para o site",
 
-  
+  "privacy.title": "Política de Privacidade",
+  "privacy.lastUpdate": "Última atualização",
+  "privacy.intro": "A presente Política de Privacidade descreve como os dados pessoais são coletados, utilizados, armazenados e protegidos ao acessar e utilizar este site, em conformidade com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018 – LGPD).",
+  "privacy.section1.title": "1. Quem Somos",
+  "privacy.section1.content": "Este site é mantido por <strong>Rafael Goulart</strong>, desenvolvedor full stack, com o objetivo de apresentar portfólio profissional, projetos realizados e formas de contato.",
+  "privacy.section2.title": "2. Dados Coletados",
+  "privacy.section2.intro": "Podemos coletar os seguintes dados pessoais:",
+  "privacy.list.item1": "Nome",
+  "privacy.list.item2": "E-mail",
+  "privacy.list.item3": "Telefone",
+  "privacy.list.item4": "Mensagem enviada através do formulário de contato",
+  "privacy.list.item5": "Dados técnicos como IP, navegador e dispositivo (cookies)",
+  "privacy.section3.title": "3. Finalidade do Uso dos Dados",
+  "privacy.section3.intro": "Os dados coletados são utilizados exclusivamente para:",
+  "privacy.section3.list1": "Entrar em contato com o usuário",
+  "privacy.section3.list2": "Responder solicitações e propostas comerciais",
+  "privacy.section3.list3": "Melhorar a experiência do usuário no site",
+  "privacy.section3.list4": "Cumprir obrigações legais",
+  "privacy.section4.title": "4. Compartilhamento de Dados",
+  "privacy.section4.content": "Os dados pessoais não são vendidos, alugados ou compartilhados com terceiros, exceto quando exigido por lei ou mediante consentimento expresso do titular.",
+  "privacy.section5.title": "5. Armazenamento e Segurança",
+  "privacy.section5.content": "Adotamos medidas técnicas e organizacionais adequadas para proteger os dados pessoais contra acessos não autorizados, perda, alteração ou divulgação indevida.",
+  "privacy.section6.title": "6. Cookies",
+  "privacy.section6.content": "Este site pode utilizar cookies para melhorar a navegação e desempenho. O usuário pode desativar os cookies a qualquer momento em seu navegador.",
+  "privacy.section7.title": "7. Direitos do Titular",
+  "privacy.section7.intro": "De acordo com a LGPD, você tem direito a:",
+  "privacy.section7.list1": "Confirmar a existência de tratamento de dados",
+  "privacy.section7.list2": "Acessar seus dados",
+  "privacy.section7.list3": "Corrigir dados incompletos ou desatualizados",
+  "privacy.section7.list4": "Solicitar a exclusão de dados",
+  "privacy.section7.list5": "Revogar o consentimento",
+  "privacy.section8.title": "8. Alterações nesta Política",
+  "privacy.section8.content": "Esta política pode ser atualizada a qualquer momento, sendo recomendada a revisão periódica desta página.",
+  "privacy.section9.title": "9. Contato",
+  "privacy.section9.content": "Em caso de dúvidas sobre esta Política de Privacidade, entre em contato pelo e-mail: <strong>rafaelgoulartferreira18@gmail.com</strong>",
+  "privacy.backButton": "← Voltar para o site"
 }
-
-
-
