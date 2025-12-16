@@ -130,3 +130,60 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 
+/* ======================================================
+   Animacao de entrada dos cards de projetos
+====================================================== */
+
+document.addEventListener('DOMContentLoaded', function() {
+  const animateElements = document.querySelectorAll('[data-animate]');
+  
+  // Função para verificar se elemento está visível
+  function isElementInViewport(el) {
+    const rect = el.getBoundingClientRect();
+    return (
+      rect.top <= (window.innerHeight || document.documentElement.clientHeight) * 0.8 &&
+      rect.bottom >= 0
+    );
+  }
+  
+  // Função para animar elementos
+  function animateOnScroll() {
+    animateElements.forEach(el => {
+      if (isElementInViewport(el) && !el.classList.contains('show')) {
+        el.classList.add('show');
+      }
+    });
+  }
+  
+  // Observador de intersecção (mais moderno)
+  if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          // Verifica se há delay definido
+          const delay = entry.target.getAttribute('data-delay');
+          if (delay) {
+            setTimeout(() => {
+              entry.target.classList.add('show');
+            }, parseInt(delay));
+          } else {
+            entry.target.classList.add('show');
+          }
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    });
+    
+    animateElements.forEach(el => observer.observe(el));
+  } else {
+    // Fallback para navegadores antigos
+    animateOnScroll();
+    window.addEventListener('scroll', animateOnScroll);
+  }
+  
+  // Inicializa animações
+  animateOnScroll();
+});

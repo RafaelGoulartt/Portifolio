@@ -172,9 +172,6 @@ include 'data/projetos.php';
   <div class="container">
     <div class="section-header text-center">
       <h2 class="section-title" data-i18n="process.title">Metodologia de Trabalho</h2>
-      <p class="section-subtitle" data-i18n="process.subtitle">
-        Como trabalho para garantir a qualidade e eficiência dos projetos
-      </p>
     </div>
     
     <div class="process-timeline">
@@ -242,37 +239,73 @@ include 'data/projetos.php';
 <!-- PROJETOS -->
 <section id="projetos" class="section-padding bg-dark-alt">
   <div class="container">
-
-    <h2
-      class="section-title mb-4"
-      data-i18n="projects.title"
-      data-animate="fade-up">
+    <h2 class="section-title mb-5" data-i18n="projects.title" data-animate="fade-up">
+      Meus Projetos
     </h2>
 
     <div class="row">
-      <?php foreach ($projetos as $index => $p): ?>
-        <div class="col-md-6">
-          <a
-            href="projeto/<?= $p['slug'] ?>"
-            class="project-card mb-4"
-            data-animate="fade-up"
-           style="transition-delay: .1s"
-          >
-            <img
-              src="<?= $p['imagem'] ?>"
-              alt="<?= $p['titulo'][$lang] ?>"
-            >
+      <?php 
+      // Limita a exibição a 6 projetos
+      $projetos_limitados = array_slice($projetos, 0, 3);
+      foreach ($projetos_limitados as $index => $p): 
+      ?>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="project-card-wrapper" data-animate="fade-up">
+            <a href="projeto.php?slug=<?= $p['slug'] ?>&lang=<?= $lang ?>" class="project-card">
+              <div class="project-image-container">
+                <img src="<?= $p['imagemProject'] ?>" alt="<?= $p['titulo'][$lang] ?>" class="project-image">
+                <div class="project-overlay">
+                  <span class="view-project-btn">Ver projeto →</span>
+                </div>
+                <div class="project-badge"><?= $p['categoria'] ?? 'Web' ?></div>
+              </div>
 
-            <div class="project-info">
-              <h5><?= $p['titulo'][$lang] ?></h5>
-              <p><?= $p['descricao_curta'][$lang] ?></p>
-              <span><?= $p['stack'] ?></span>
-            </div>
-          </a>
+              <div class="project-content">
+                <div class="project-header">
+                  <h3 class="project-titleIndex"><?= $p['titulo'][$lang] ?></h3>
+                  <div class="project-year"><?= $p['ano'] ?? '2024' ?></div>
+                </div>
+                
+                <p class="project-description"><?= $p['descricao_curta'][$lang] ?></p>
+                
+                <div class="project-tech-stack">
+                  <?php 
+                  if (isset($p['stack']) && !empty($p['stack'])) {
+                    $techs = is_array($p['stack']) ? $p['stack'] : explode(',', $p['stack']);
+                    foreach ($techs as $tech): 
+                      if (trim($tech) !== ''): ?>
+                        <span class="tech-tag"><?= trim($tech) ?></span>
+                      <?php endif;
+                    endforeach; 
+                  }
+                  ?>
+                </div>
+                
+                <div class="project-footer">
+                  <div class="project-links">
+                    <?php if (isset($p['link_live']) && !empty($p['link_live'])): ?>
+                      <a href="<?= $p['link_live'] ?>" target="_blank" class="project-link" title="Ver ao vivo">
+                        🌐
+                      </a>
+                    <?php endif; ?>
+                    <?php if (isset($p['link_repo']) && !empty($p['link_repo'])): ?>
+                      <a href="<?= $p['link_repo'] ?>" target="_blank" class="project-link" title="Código fonte">
+                        📂
+                      </a>
+                    <?php endif; ?>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
       <?php endforeach; ?>
     </div>
-
+      <div class="text-center mt-5" data-animate="fade-up">
+        <a href="allprojetos.php?lang=<?= $lang ?>" class="btn-view-all-projects">
+          <span class="btn-accent"><?= $lang === 'pt' ? 'Ver Todos os Projetos' : 'View All Projects' ?></span>
+        </a>
+      </div>
   </div>
 </section>
 

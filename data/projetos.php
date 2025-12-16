@@ -3,6 +3,7 @@
 $projetos = [
   'ecommerce' => [
     'slug' => 'ecommerce',
+    'categoria' => 'Web',
     'titulo' => [
       'pt' => 'Sistema de E-commerce',
       'en' => 'E-commerce System'
@@ -16,6 +17,8 @@ $projetos = [
       'en' => 'E-commerce system with cart, product management, orders and database integration.'
     ],
     'stack' => 'PHP · SQL Server · Bootstrap',
-    'imagem' => 'assets/img/project-1.png'
+    'imagem' => 'assets/img/project-1.png',
+    'imagemProject' => 'assets/img/project-1.png'
   ],
+
 ];
