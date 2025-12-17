@@ -1,24 +1,24 @@
 <?php
 
 $projetos = [
-  'ecommerce' => [
-    'slug' => 'ecommerce',
+  'newspace' => [
+    'slug' => 'newspace',
     'categoria' => 'Web',
     'titulo' => [
-      'pt' => 'Sistema de E-commerce',
-      'en' => 'E-commerce System'
+      'pt' => 'NewSpace',
+      'en' => 'NewSpace'
     ],
     'descricao_curta' => [
-      'pt' => 'Plataforma completa de vendas online',
-      'en' => 'Complete online sales platform'
+      'pt' => 'LadingPage de salão de beleza',
+      'en' => 'Landing Page for beauty salon'
     ],
     'descricao_longa' => [
-      'pt' => 'Sistema de e-commerce com carrinho, gestão de produtos, pedidos e integração com banco de dados.',
-      'en' => 'E-commerce system with cart, product management, orders and database integration.'
+      'pt' => 'LadingPage de salão de beleza',
+      'en' => 'Landing Page for beauty salon'
     ],
-    'stack' => 'PHP · SQL Server · Bootstrap',
-    'imagem' => 'assets/img/project-1.png',
-    'imagemProject' => 'assets/img/project-1.png'
+    'stack' => 'PHP · Bootstrap',
+    'imagem' => 'assets/img/Newspace.png',
+    'imagemProject' => 'assets/img/Newspace.png'
   ],
 
 ];
