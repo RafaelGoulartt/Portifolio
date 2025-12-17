@@ -16,6 +16,14 @@ if (!$slug || !isset($projetos[$slug])) {
 }
 
 $projeto = $projetos[$slug];
+
+$statusKey = isset($statusMap[$projeto['status']])
+    ? $projeto['status']
+    : 'in_progress';
+
+$status = $statusMap[$statusKey];
+
+
 ?>
 
 <!-- Hero Section do Projeto -->
@@ -151,9 +159,12 @@ $projeto = $projetos[$slug];
               </div>
               
               <div class="detail-item">
-                <span class="detail-label" data-i18n="project.status">Status</span>
-                <span class="detail-value status-completed" data-i18n="project.statusCompleted">Concluído</span>
-              </div>            
+                  <span class="detail-label" data-i18n="project.status">Status</span>
+                  <span class="detail-value <?= $status['class']; ?>">
+                      <?= $status['text']; ?>
+                  </span>
+              </div>
+        
             </div>
           </div>        
         </div>

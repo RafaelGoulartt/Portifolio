@@ -1766,6 +1766,13 @@ footer {
   border-radius: 20px;
   font-size: 0.85rem;
 }
+.status-progress {
+  color: #f59e0b; 
+  background: rgba(245, 158, 11, 0.12);
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+}
 
 .tech-stack-list {
   display: flex;
